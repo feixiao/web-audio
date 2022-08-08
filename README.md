@@ -256,9 +256,23 @@ analyser.getByteTimeDomainData(dataArray);
 + [《voice-change-o-matic-float-data》](https://github.com/feixiao/voice-change-o-matic-float-data)
 
 + To capture data, you need to use the methods AnalyserNode.getFloatFrequencyData() and AnalyserNode.getByteFrequencyData() to capture **frequency data**, and AnalyserNode.getByteTimeDomainData() and AnalyserNode.getFloatTimeDomainData() to capture **waveform data**.
-+ 
 
+##### TimeDomain/getFloatTimeDomainData
++ X轴是时间
++ Y轴是信号的量度(又称振幅)
+  ![](./img/timeDomain.png)
 
+##### Frequency/getFloatFrequencyData
++ X轴是频率或频带
++ Y轴是每个频带的强度
+  ![](./img/apDhk.png)
+
+##### Fourier Transform (Fast Fourier Transform/FFT)
++ **getFloatTimeDomainData** gives you the chart on on the top (x-axis is Time)
++ **getFloatFrequencyData**  gives you the chart on the bottom (x-axis is Frequency)
++ a Fast Fourier Transform (FTT) converts the Time Domain data into Frequency data,
+  in other words, FTT converts the first chart to the second chart.
+  ![](./img/fft.png)
 
 ## x. 附录
 
