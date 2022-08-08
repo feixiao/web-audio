@@ -239,7 +239,6 @@ AudioContext的createAnalyser()方法能创建一个AnalyserNode，可以用来�
 
 - getByteTimeDomainData
 - getByteFrequencyData
-
 ```js
 const analyser = audioContext.createAnalyser();
 analyser.fftSize = 2048;
@@ -255,5 +254,5 @@ analyser.getByteTimeDomainData(dataArray);
 
 ## x. 附录
 
--   [让你的网页开口说话 —— audioContext API](https://xiaotianxia.github.io/blog/vuepress/js/useful_webapis_audiocontext.html?_=193678675665)
+- [让你的网页开口说话 —— audioContext API](https://xiaotianxia.github.io/blog/vuepress/js/useful_webapis_audiocontext.html?_=193678675665)
 - [web audio api 前端音效处理](https://zenaro.github.io/blog/2017/03/01/web-audio-api/)
