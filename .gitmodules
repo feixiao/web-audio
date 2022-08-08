@@ -1,0 +1,3 @@
+[submodule "voice-change-o-matic-float-data"]
+	path = voice-change-o-matic-float-data
+	url = https://github.com/feixiao/voice-change-o-matic-float-data.git

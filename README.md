@@ -252,7 +252,16 @@ analyser.getByteTimeDomainData(dataArray);
 具体用法可以看demo4
 
 
+### 深入理解
++ [《voice-change-o-matic-float-data》](https://github.com/feixiao/voice-change-o-matic-float-data)
+
++ To capture data, you need to use the methods AnalyserNode.getFloatFrequencyData() and AnalyserNode.getByteFrequencyData() to capture **frequency data**, and AnalyserNode.getByteTimeDomainData() and AnalyserNode.getFloatTimeDomainData() to capture **waveform data**.
++ 
+
+
+
 ## x. 附录
 
 - [让你的网页开口说话 —— audioContext API](https://xiaotianxia.github.io/blog/vuepress/js/useful_webapis_audiocontext.html?_=193678675665)
 - [web audio api 前端音效处理](https://zenaro.github.io/blog/2017/03/01/web-audio-api/)
+- [《understanding getByteTimeDomainData and getByteFrequencyData in web audio》](https://stackoverflow.com/questions/24083349/understanding-getbytetimedomaindata-and-getbytefrequencydata-in-web-audio)
